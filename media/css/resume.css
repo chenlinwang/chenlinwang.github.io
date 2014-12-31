@@ -1,3 +1,8 @@
+#experience, #course, #extra-curriculum {
+    text-align: center;
+    font-size: 18px;
+}
+
 p.resume-item-title {
     padding: 0px 0px 0px 0px;
 }
@@ -63,7 +68,7 @@ p.resume-item-title time {
 
 /* for the course page */
 p.textbook img {
-    height: 250px;
+    width: 130px;
     margin-top: 10px;
     margin-right: 20px;
 }
@@ -76,4 +81,8 @@ span.course-description {
 
 span.course-description p {
     padding: 0px;
+}
+
+li.course-item span.item-picture-summary-list {
+    display: none;
 }
